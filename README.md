@@ -64,8 +64,14 @@ CongestIQ/
 
 ## 🚀 Setup & Execution Steps
 
-### 1. Clone/Setup Project Directory
-Ensure your files are structured as shown in the directory tree above.
+> [!IMPORTANT]
+> **Data Folder & Gitignore Notice:**
+> The `data/` folder is included in the `.gitignore` to prevent large dataset files from being pushed to GitHub. After cloning the repository, you **must manually create a `data/` folder** in the root directory and place the raw CSV dataset (`Astram event data_anonymized - Astram event data_anonymizedb40ac87.csv`) inside it before running the preprocessing script.
+
+### 1. Place the Dataset
+1. Create a folder named `data` in the project root directory.
+2. Download the raw dataset and save it as:  
+   `data/Astram event data_anonymized - Astram event data_anonymizedb40ac87.csv`
 
 ### 2. Install Dependencies
 Install all required libraries using pip:
